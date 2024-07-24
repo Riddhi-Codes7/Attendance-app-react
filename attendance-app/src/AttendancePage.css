@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center container vertically */
+    min-height: 100vh; /* Full viewport height */
+    background: linear-gradient(to right, #3d86da, #50C6E1);
+    padding: 20px;
+  }
+  
+  .attendance-heading {
+    font-size: 2rem;
+    color: rgb(62, 62, 172);
+    margin-bottom: 20px;
+  }
+  
+  .attendance-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .attendance-card {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .attendance-card h4 {
+    margin-bottom: 20px;
+  }
+  
+  .btn-rounded {
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .attendance-cards {
+      flex-direction: column;
+    }
+  
+    .attendance-card {
+      margin: 10px 0;
+    }
+  }
+  
