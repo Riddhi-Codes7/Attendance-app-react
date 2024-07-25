@@ -41,6 +41,7 @@ const RegisterPage = () => {
     }
   };
 
+  
   return (
     <div className="container d-flex flex-column justify-content-center align-items-center vh-100">
       <h1 className="heading">Attendance App</h1>
